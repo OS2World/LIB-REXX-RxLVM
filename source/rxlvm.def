@@ -1,0 +1,16 @@
+LIBRARY     RXLVM INITINSTANCE TERMINSTANCE
+DATA        MULTIPLE NONSHARED
+DESCRIPTION "@#Alex Taylor:0.5.1#@LVM routines for REXX"
+
+EXPORTS     RxLvmLoadFuncs
+            RxLvmDropFuncs
+            RxLvmVersion
+            RxLvmBootMgrInfo
+            RxLvmBootMgrMenu
+            RxLvmEngineClose
+            RxLvmEngineOpen
+            RxLvmGetDisks
+            RxLvmGetPartitions
+            RxLvmGetVolumes
+            RxLvmRediscoverPRM
+
